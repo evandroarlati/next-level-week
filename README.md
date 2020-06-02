@@ -48,3 +48,4 @@ criar repositorio no github
 ```
 
 Instalar Live Server
+Puxar fonts do fonts.google.com
