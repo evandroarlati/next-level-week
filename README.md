@@ -1,8 +1,26 @@
-<img src="./static/1440x900.jpg" align="center"></img>
-<h1 align="center">Next Level Week</h1>
-<p align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a NLW da Rocketseat</p>
-
 # Aula 01
+## Configurando ambiente
+### InstalarVSCode
+```bash
+sudo snap install --classic code # or code-insiders
+```
+Instalar tema vscode launchbase theme
+
+### Instalar Git
+```bash
+sudo apt install git
+```
+
+### Instalar Chrome
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+
+
+
+
+
 Utilizando vscode
 Instalar tema vscode launchbase theme
 
@@ -14,6 +32,12 @@ criar pasta nlw
 
 criar arquivo index.html
     $ touch index.html
+    
+<img src="./static/1440x900.jpg" align="center"></img>
+<h1 align="center">Next Level Week</h1>
+<p align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a NLW da Rocketseat</p>
+    
+    
 
 Criar repositório Git
     $ git init /cria repositoriório local
