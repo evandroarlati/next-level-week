@@ -1,3 +1,7 @@
+<img src="./static/1440x900.jpg" align="center"></img>
+<h1 align="center">Next Level Week</h1>
+<p align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a NLW da Rocketseat</p>
+
 # Aula 01
 ## Configurando ambiente
 ### InstalarVSCode
@@ -17,33 +21,30 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
+### Criar pasta nlw
+```bash
+cd caminhoDaPasta /seleciona pasta
+mkdir nlw /cria pasta nlw
+code . /abre vscode via terminal
+```
 
-
-
-
-Utilizando vscode
-Instalar tema vscode launchbase theme
-
-criar pasta nlw
-    comando para navegação via terminal(GitBash)
-        $ cd caminhoDaPasta /seleciona pasta
-        $ mkdir nlw /cria pasta nlw
-        $ code . /abre vscode via terminal
-
-criar arquivo index.html
+### Criar arquivo index.html
     $ touch index.html
     
-<img src="./static/1440x900.jpg" align="center"></img>
-<h1 align="center">Next Level Week</h1>
-<p align="center">Projeto <strong>Ecoleta</strong> desenvolvido durante a NLW da Rocketseat</p>
-    
+
     
 
-Criar repositório Git
+### Criar repositório Git
+```bash
     $ git init /cria repositoriório local
     $ git add -A /adiciona todas as modificações feitas   
     $ git commit -m "First commit"
-    criar repositorio no github
+ ```
+criar repositorio no github
+ ```bash   
     $ git remote add origin git@github.com:evandroarlati/next-level-week.git
     $ git remote -v /verifica se foi criado corretamente
     $ git push -u origin master /envia as alterações para o repositório
+```
+
+Instalar Live Server
