@@ -49,3 +49,5 @@ criar repositorio no github
 
 Instalar Live Server
 Puxar fonts do fonts.google.com
+
+https://www.notion.so/Front-end-7c8a1a9a6df547058f1473f899a3b9c4
